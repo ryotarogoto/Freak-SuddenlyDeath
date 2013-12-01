@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-import sys
+import sys, os
 import unittest
 
-sys.path.append('./../lib/freak')
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../lib/freak')
 
 from suddenlydeath import *
 
